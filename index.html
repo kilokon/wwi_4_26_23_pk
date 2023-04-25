@@ -9,9 +9,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
 
-<link rel="stylesheet" href="./reveal.js/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
 
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -20,7 +20,7 @@
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = './reveal.js/css/print/pdf.css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -29,16 +29,14 @@
 <div class="reveal">
 <div class="slides">
 <section id="sec-title-slide"><h1 class="title">My Title Goes Here</h1><p class="subtitle"></p>
-<h2 class="author">Your Name Goes Here</h2><h2 class="date">11.10.2016</h2><p class="date">Created: 2023-04-25 Tue 20:55</p>
+<h2 class="author">Your Name Goes Here</h2><h2 class="date">11.10.2016</h2><p class="date">Created: 2023-04-25 Tue 21:19</p>
 </section>
 
-
-
 <section>
-<section id="slide-org8a19830">
-<h2 id="org8a19830"><span class="section-number-2">1.</span> First Slide</h2>
+<section id="slide-org7ed7f3f">
+<h2 id="org7ed7f3f"><span class="section-number-2">1.</span> First Slide</h2>
 
-<div id="org6d0709c" class="figure">
+<div id="org5a79a88" class="figure">
 <p><img src="images/test.png" alt="test.png" />
 </p>
 </div>
@@ -46,13 +44,24 @@
 </section>
 </section>
 <section>
-<section id="slide-org9ca7c16">
-<h2 id="org9ca7c16"><span class="section-number-2">2.</span> Second Slide</h2>
+<section id="slide-orgfa657fb">
+<h2 id="orgfa657fb"><span class="section-number-2">2.</span> Second Slide</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-org3a37a58">
+<h2 id="org3a37a58"><span class="section-number-2">3.</span> Third Slide</h2>
+
+<div id="orge17621e" class="figure">
+<p><img src="images/diagram.png" alt="diagram.png" />
+</p>
+</div>
 </section>
 </section>
 </div>
 </div>
-<script src="./reveal.js/js/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -61,10 +70,10 @@ Reveal.initialize({
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
 
 });
 
