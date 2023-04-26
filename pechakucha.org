@@ -1,6 +1,105 @@
+#+TITLE: Pragmatic VFX Pipeline
+#+AUTHOR: Aviik Chakraborty
+#+EMAIL: avik.c@whistlingwoods.net
+#+REVEAL_TITLE_SLIDE: %t
+#+OPTIONS: toc:nil num:nil
 
-* First Slide
-#+begin_src mermaid :file images/test.png
-sequenceDiagram
- A-->B: Works!
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_INIT_OPTIONS: slideNumber: true
+
+* .
+    :PROPERTIES:
+    :reveal_background: ./images/midj_a.png
+    :reveal_background_trans: slide
+    :END:
+
+** Not difficult it's different.
+:PROPERTIES:
+:reveal_background: ./images/synth.jpg
+:reveal_background_size: 1300px
+:reveal_background_opacity: 0.8
+:END:
+
+** Logistics
+    :PROPERTIES:
+    :reveal_background: ./images/vfx_pipeline.png
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+** .
+    :PROPERTIES:
+    :reveal_background: ./images/bullet_train.jpg
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+** .
+    :PROPERTIES:
+    :reveal_background: ./images/midj_b.png
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+* Objectives
+** Shotgun
+    :PROPERTIES:
+    :reveal_background: ./images/shotgun.jpg
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+*** .
+    :PROPERTIES:
+    :reveal_background: ./images/OIP.jpeg
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+*** Prism
+    :PROPERTIES:
+    :reveal_background: ./images/prism.png
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+*** Pimcore
+    :PROPERTIES:
+    :reveal_background: ./images/pimcore.png
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+*** ftrack
+    :PROPERTIES:
+    :reveal_background: ./images/ftrack_621417_full.webp
+    :reveal_background_size: 1300px
+    :reveal_background_trans: slide
+    :END:
+
+
+* Summary
+    :PROPERTIES:
+    :reveal_background: ./images/flirting.jpeg
+    :reveal_background_size: 700px
+    :reveal_background_trans: slide
+    :END:
+
+* Need
+#+begin_src mermaid :file images/diagram.png
+journey
+    title The VFx Pipeline
+    section Pre Production
+      Shot Breakdown: 5: Me
+      Storyboard: 3: Me
+    section Production
+      Shoot Supervision: 5: Me
+      Asset Management: 5: Me
+    section Post Production
+      CGI Artist: 4: Me
+
 #+end_src
+
+#+RESULTS:
+[[file:diagram.png]]
+
+* Output -  Software
